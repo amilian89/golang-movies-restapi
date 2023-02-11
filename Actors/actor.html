@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Actors</title>
+</head>
+<body>
+    <h1>Actors</h1>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>FirstName</th>
+            <th>LastName</th>
+            <th>Gender</th>
+            <th>Age</th>
+            <th>Movies</th>
+        </tr>
+        {{range .}}
+        <tr>
+            <td>{{.ID}}</td>
+            <td>{{.FirstName}}</td>
+            <td>{{.LastName}}</td>
+            <td>{{.Gender}}</td>
+            <td>{{.Age}}</td>
+            <td>{{.Movies}}</td>
+        </tr>
+        {{end}}
+    </table>
+</body>
+</html>

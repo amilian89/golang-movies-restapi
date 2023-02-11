@@ -1,0 +1,21 @@
+// Movie example
+{
+  "id": "01",
+  "title": "Avatar",
+  "year": "2010",
+  "genre": "Action",
+  "actors": "James Cameron,
+  "rating": 9
+}
+
+// Actor example
+{
+  "id": "01",
+  "firstname": "Dwayne",
+  "lastname": "Johnson",
+  "gender": "Male",
+  "age": 32,
+  "movies": "Black Adam"
+}
+
+

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Movies</title>
+</head>
+<body>
+	<h1>Movies</h1>
+	<table>
+		<tr>
+			<th>ID</th>
+			<th>Title</th>
+			<th>Year</th>
+			<th>Genre</th>
+			<th>Actor</th>
+			<th>Rating</th>
+		</tr>
+		{{range .}}
+		<tr>
+			<td>{{.ID}}</td>
+			<td>{{.Title}}</td>
+			<td>{{.Year}}</td>
+			<td>{{.Genre}}</td>
+			<td>{{.Actor}}</td>
+			<td>{{.Rating}}</td>
+		</tr>
+		{{end}}
+	</table>
+</body>
+</html>
